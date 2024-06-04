@@ -7,11 +7,20 @@
     <title>Nima Asgari</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='assest/css/style.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='assest/css/font.css'>
     <script src='js/main.js'></script>
 </head>
+<style>
+    .my-box {
+        height: 144px !important;
+        clip-path: polygon(0% 0, 100% 0, 100% 100%, 0% 100%);
+    }
 
-<body class="bg-main">
+    span.f {
+        transform: translate(-27%, -40%);
+    }
+</style>
+
+<body class="bg-main-950 font-[Anjoman]">
     <header class="bg-white">
         <div class=" justify-center flex items-center h-10 bg-main">
             <h4 class="text-white text-xs">
@@ -22,8 +31,8 @@
         <div class="container px-28 py-3 flex flex-row ">
             <div class="basis-1/2 flex gap-x-4 items-center">
                 <img src="assest/image/Logo.svg">
-                <ul class="rounded-3xl border border-solid border-main flex-row flex h-10 text-sm items-center p-1 ">
-                    <li><a href="#" class="w-full px-3 py-2 bg-main h-8 text-white rounded-3xl flex items-center ">صفحه
+                <ul class="rounded-3xl border border-solid border-main-950 flex-row flex h-10 text-sm items-center p-1 ">
+                    <li><a href="#" class="w-full px-3 py-2 bg-main-950 h-8 text-white rounded-3xl flex items-center ">صفحه
                             اصلی</a></li>
                     <li><a class="w-full px-3 py-2 rounded-3xl flex items-center " href="#">سرمایه گذاری</a></li>
                     <li><a class="w-full px-3 py-2 rounded-3xl flex items-center " href="#">اطلاع رسانی</a></li>
@@ -33,13 +42,13 @@
                 </ul>
             </div>
             <div class="basis-1/2 flex flex-row-reverse gap-2.5 text-sm items-center">
-                <a class="p-2.5 rounded-3xl border border-solid border-main flex items-center"><img
+                <a class="p-2.5 rounded-3xl border border-solid border-main-950 flex items-center"><img
                         src="assest/image/user.svg"></a>
-                <a href="#" class="bg-main py-2.5 px-4 rounded-3xl text-white">درخواست مشاوره</a>
+                <a href="#" class="bg-main-950 py-2.5 px-4 rounded-3xl text-white">درخواست مشاوره</a>
                 <a href="#"
-                    class="border border-solid border-main py-2.5 px-4 rounded-3xl flex flex-row-reverse gap-1.5"><span>نرخ
+                    class="border border-solid border-main-950 py-2.5 px-4 rounded-3xl flex flex-row-reverse gap-1.5"><span>نرخ
                         لحظه ای</span><img src="assest/image/chart-notification.svg"></a>
-                <a href="#" class="p-2.5 rounded-3xl border border-solid border-main flex items-center"><img
+                <a href="#" class="p-2.5 rounded-3xl border border-solid border-main-950 flex items-center"><img
                         src="assest/image/Vector.svg"></a>
             </div>
         </div>
@@ -47,32 +56,114 @@
 
     <section class="h-[838px] bg-white rounded-b-el container px-28 py-3 ">
         <header class="flex justify-center items-center pt-[120px] gap-6 flex-col">
-            <h1 class="text-main text-7xl">مشاوره حرفه‌ای در تحلیل و آنالیز</h1>
-            <div class="border-2 border-solid border-main py-2.5 px-4 rounded-[48px] flex flex-row w-60 text-3xl justify-around items-center text-main">
+            <h1 class="text-main-950 text-7xl font-[Anjoman-Bold]">مشاوره حرفه‌ای در تحلیل و آنالیز</h1>
+            <div
+                class="border-2 border-solid border-main-950 py-2.5 px-4 rounded-[48px] flex flex-row w-60 text-3xl justify-around items-center text-main">
                 <img src="assest/image/Ellipse 1248.svg" alt="dot">
                 <h3>ارز دیجیتال</h3>
                 <img src="assest/image/Ellipse 1248.svg" alt="dot">
             </div>
         </header>
     </section>
-    <section class="h-[530px] container py-[120px] items-center px-28 gap-12 flex flex-col space-between ">
-        
-            <h2 class="text-white text-4xl">مزایای همکاری با ما</h2>
-            <h4 class="text-white text-lg">دلایل انتخاب ما</h4>
-            <ol class="flex flex-row flex-wrap gap-2 justify-center w-2/3">
-                <li class="border border-white p-5 pl-8 rounded-[56px] flex justify-center items-center text-white gap-2"><span>۰۱</span>مشاوره در سبد گردانی</li>
-                <li class="border border-main p-5 pl-8 bg-white rounded-[56px] flex justify-center items-center text-main gap-2"><span>۰۲</span>مشاوره مدیریت مالی</li>
-                <li class="border border-white p-5 pl-8 rounded-[56px] flex justify-center items-center text-white gap-2"><span>۰۳</span>کوچینگ اقتصادی</li>
-                <li class="border border-white p-5 pl-8 rounded-[56px] flex justify-center items-center text-white gap-2"><span>۰۴</span>ریسک سنجی</li>
-                <li class="border border-white p-5 pl-8 rounded-[56px] flex justify-center items-center text-white gap-2"><span>۰۵</span>استراتژی CSP</li>
-                <li class="border border-white p-5 pl-8 rounded-[56px] flex justify-center items-center text-white gap-2"><span>۰۶</span>استراتژی GIP</li>
-                <li class="border border-white p-5 pl-8 rounded-[56px] flex justify-center items-center text-white gap-2"><span>۰۷</span>مشاوره کسب و کار</li>
-                <li class="border border-white p-5 pl-8 rounded-[56px] flex justify-center items-center text-white gap-2"><span>۰۸</span>مشاوره سرمایه گذاری</li>
-            </ol>
+    <article class="h-[530px] container py-[120px] items-center px-28 gap-12 flex flex-col space-between ">
 
-    </section>
-    <section class="h-[2772px] bg-white rounded-el">
-    </section>
+        <h2 class="text-white text-4xl font-[Anjoman-Bold]">مزایای همکاری با ما</h2>
+        <h4 class="text-white text-lg">دلایل انتخاب ما</h4>
+        <ol class="flex flex-row flex-wrap gap-2 justify-center w-2/3">
+            <li class="border border-white p-5 pl-8 rounded-[56px] flex justify-center items-center text-white gap-2">
+                <span>۰۱</span>مشاوره در سبد گردانی
+            </li>
+            <li
+                class="border border-main-950 p-5 pl-8 bg-white rounded-[56px] flex justify-center items-center text-main-950 gap-2">
+                <span>۰۲</span>مشاوره مدیریت مالی
+            </li>
+            <li class="border border-white p-5 pl-8 rounded-[56px] flex justify-center items-center text-white gap-2">
+                <span>۰۳</span>کوچینگ اقتصادی
+            </li>
+            <li class="border border-white p-5 pl-8 rounded-[56px] flex justify-center items-center text-white gap-2">
+                <span>۰۴</span>ریسک سنجی
+            </li>
+            <li class="border border-white p-5 pl-8 rounded-[56px] flex justify-center items-center text-white gap-2">
+                <span>۰۵</span>استراتژی CSP
+            </li>
+            <li class="border border-white p-5 pl-8 rounded-[56px] flex justify-center items-center text-white gap-2">
+                <span>۰۶</span>استراتژی GIP
+            </li>
+            <li class="border border-white p-5 pl-8 rounded-[56px] flex justify-center items-center text-white gap-2">
+                <span>۰۷</span>مشاوره کسب و کار
+            </li>
+            <li class="border border-white p-5 pl-8 rounded-[56px] flex justify-center items-center text-white gap-2">
+                <span>۰۸</span>مشاوره سرمایه گذاری
+            </li>
+        </ol>
+
+    </article>
+    <article class="h-[2772px] bg-white rounded-el container py-[120px] px-28">
+        <section class=" flex flex-col items-center gap-12 w-">
+            <header class="flex flex-col items-center gap-2">
+                <h2 class="text-4xl text-main-950 font-[Anjoman-Bold]">خدمات منحصربفرد ما</h2>
+                <h4 class="text-lg text-main-950 ">توانمندی‌های تیم نیما</h4>
+            </header>
+            <ol class="w-full gap-4 flex flex-col">
+                <li class="rounded-[48px] gap-8 px-12 py-8 bg-main-50 w-full h-[208px] flex items-center ">
+                    <div class="my-box w-[280px]  flex justify-start  ">
+                        <span
+                            class="text-[260px] h-[240px] w-[280px] mb-[-24px] text-main-200 font-[Anjoman-Light] self-end text-left">۰۱</span>
+                    </div>
+                    <div class="flex my-box flex-col justify-evenly">
+                        <p class="text-2xl font-[Anjoman-Bold]">سنجش سواد مالی</p>
+                        <p class="font-[Anjoman-Light] w-[384px]">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                            چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و
+                            سطرآنچنان که لازم است.</p>
+                    </div>
+
+                </li>
+                <li class="rounded-[48px] gap-8 px-12 py-8 bg-main-950 w-full h-[208px] flex items-center ">
+                    <div class="my-box w-[280px]  flex justify-start ">
+                        <span
+                            class="self-end text-left text-[260px] mb-[-24px] h-[240px] w-[280px] text-main-100 font-[Anjoman-Light]">۰۲</span>
+                    </div>
+                    <div class="flex my-box flex-col justify-evenly">
+                        <p class="text-2xl font-[Anjoman-Bold] text-white">کوچینگ اقتصادی</p>
+                        <p class="font-[Anjoman-Light] w-[384px] text-white">لورم ایپسوم متن ساختگی با تولید سادگی
+                            نامفهوم از صنعت
+                            چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و
+                            سطرآنچنان که لازم است.</p>
+                    </div>
+                    <img class="self-start mr-auto" src="assest/image/arow.svg" alt="arow">
+
+                </li>
+                <li class="rounded-[48px] gap-8 px-12 py-8 bg-main-50 w-full h-[208px] flex items-center ">
+                    <div class="my-box w-[280px]  flex justify-start ">
+                        <span
+                            class="self-end text-left text-[260px] mb-[-24px] h-[240px] w-[280px] text-main-200 font-[Anjoman-Light]">۰۳</span>
+                    </div>
+                    <div class="flex my-box flex-col justify-evenly">
+                        <p class="text-2xl font-[Anjoman-Bold]">مشاوره آنلاین و حضوری</p>
+                        <p class="font-[Anjoman-Light] w-[384px]">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                            چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و
+                            سطرآنچنان که لازم است.</p>
+                    </div>
+
+                </li>
+                <li class="rounded-[48px] gap-8 px-12 py-8 bg-main-50 w-full h-[208px] flex items-center ">
+                    <div class="my-box w-[280px]  flex justify-start ">
+                        <span
+                            class="self-end text-left text-[260px] mb-[-24px] h-[240px] w-[280px] text-main-200 font-[Anjoman-Light]">۰۴</span>
+                    </div>
+                    <div class="flex my-box flex-col justify-evenly">
+                        <p class="text-2xl font-[Anjoman-Bold]">مشاوره کسب و کار</p>
+                        <p class="font-[Anjoman-Light] w-[384px]">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                            چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و
+                            سطرآنچنان که لازم است.</p>
+                    </div>
+
+                </li>
+            </ol>
+        </section>
+        <section></section>
+
+    </article>
     <section class="h-[981px]">
     </section>
     <section class="h-[2567px] bg-white rounded-el">
@@ -84,6 +175,7 @@
     <footer class="h-[712px] bg-white">
         fdsfs
     </footer>
+
 </body>
 
 </html>
