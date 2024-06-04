@@ -1,0 +1,8 @@
+@font-face{
+    src:url(../fonts/Anjoman-Regular.woff);
+    font-family: Anjoman ;
+}
+body{
+    font-family: Anjoman ;
+    
+}
